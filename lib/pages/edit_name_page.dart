@@ -19,7 +19,8 @@ class _EditNamePageState extends State<EditNamePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Edit Name'),
+        title: const Text('Editar Nombre'),
+        backgroundColor: Colors.blue,
       ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
